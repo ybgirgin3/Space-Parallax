@@ -1,0 +1,418 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: 
+  background-size: 500%;
+  animation: gradient_Back 10s alternate;
+  animation-iteration-count: infinite;
+}
+div.ana-yuvarlak {
+  width: 400px;
+  height: 400px;
+  border-radius: 400px;
+  background-color: transparent;
+  box-shadow: 0px 0px 150px 10px #000;
+}
+div.uzay-boslugu {
+  position: relative;
+  top: 2.5%;
+  left: 2.5%;
+  width: 95%;
+  height: 95%;
+  border-radius: 100%;
+  background: radial-gradient(ellipse at center, #170080, purple, blue, darkred, darkgreen);
+  background-size: 100%;
+  background-position: center;
+  animation: gradient_Back 10s alternate;
+  animation-iteration-count: infinite;
+}
+@keyframes gradient_Back {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
+div.en-buyuk-gezegen {
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  z-index: 3;
+  background: linear-gradient(-240deg, #f45c67 1%, #f5845e 33%, #f6925b 50%, #f45b6e 100%);
+  position: relative;
+  top: 34%;
+  left: 34.5%;
+  box-shadow: inset 0px 0px 30px 0px black;
+  animation: selforbit 3s alternate;
+  animation-iteration-count: infinite;
+}
+div.kucuk-gezegen {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  background: linear-gradient(to bottom, #70a27d 1%, #4552a1 50%, #371a6a 100%);
+  position: absolute;
+  top: 15%;
+  left: 60%;
+}
+div.yildiz-1 {
+  background: #fff;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: yildiz-1 5s linear infinite;
+}
+@keyframes yildiz-1 {
+  from {
+    transform: rotate(0deg) translateX(70px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(70px) rotate(-360deg);
+  }
+}
+div.yildiz-2 {
+  background: #fff;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: yildiz-2 6s linear infinite;
+}
+@keyframes yildiz-2 {
+  from {
+    transform: rotate(0deg) translateX(75px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(75px) rotate(-360deg);
+  }
+}
+div.yildiz-3 {
+  background: #fff;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: yildiz-3 7s linear infinite;
+}
+@keyframes yildiz-3 {
+  from {
+    transform: rotate(0deg) translateX(80px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(80px) rotate(-360deg);
+  }
+}
+div.yildiz-4 {
+  background: #fff;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: yildiz-4 8s linear infinite;
+}
+@keyframes yildiz-4 {
+  from {
+    transform: rotate(0deg) translateX(85px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(85px) rotate(-360deg);
+  }
+}
+div.yildiz-5 {
+  background: #fff;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: yildiz-5 9s linear infinite;
+}
+@keyframes yildiz-5 {
+  from {
+    transform: rotate(0deg) translateX(90px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(90px) rotate(-360deg);
+  }
+}
+div.yildiz-6 {
+  background: #fff;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: yildiz-6 10s linear infinite;
+}
+@keyframes yildiz-6 {
+  from {
+    transform: rotate(0deg) translateX(95px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(95px) rotate(-360deg);
+  }
+}
+div.yildiz-7 {
+  background: #fff;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: yildiz-7 11s linear infinite;
+}
+@keyframes yildiz-7 {
+  from {
+    transform: rotate(0deg) translateX(100px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(100px) rotate(-360deg);
+  }
+}
+div.yildiz-8 {
+  background: #fff;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: yildiz-8 12s linear infinite;
+}
+@keyframes yildiz-8 {
+  from {
+    transform: rotate(0deg) translateX(105px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(105px) rotate(-360deg);
+  }
+}
+div.yildiz-9 {
+  background: #fff;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: yildiz-9 13s linear infinite;
+}
+@keyframes yildiz-9 {
+  from {
+    transform: rotate(0deg) translateX(110px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(110px) rotate(-360deg);
+  }  
+}
+div.yildiz-10 {
+  background: #fff;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: yildiz-10 14s linear infinite;
+}
+@keyframes yildiz-10 {
+  from {
+    transform: rotate(0deg) translateX(115px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(115px) rotate(-360deg);
+  }
+}
+div.yildiz-11 {
+  background: #fff;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: yildiz-11 15s linear infinite;
+}
+@keyframes yildiz-11 {
+  from {
+    transform: rotate(0deg) translateX(120px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(120px) rotate(360deg);
+  }
+}
+div.yildiz-12 {
+  background: #fff;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: yildiz-12 16s linear infinite;
+}
+@keyframes yildiz-12 {
+  from {
+    transform: rotate(0deg) translateX(125px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(125px) rotate(360deg);
+  }
+}
+div.yildiz-13 {
+  background: #fff;
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: yildiz-13 17s linear infinite;
+}
+@keyframes yildiz-13 {
+  from {
+    transform: rotate(0deg) translateX(130px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(130px) rotate(360deg);
+  }
+}
+div.kayan-yildiz-1 {
+  position: absolute;
+  left: -100px;
+  top: 50px;
+  width: 40px;
+  height: 1px;
+  background: linear-gradient(to left, #fff, transparent);
+  animation: kayan-1 5s linear infinite;
+}
+@keyframes kayan-1 {
+  from {
+    left: -100px;
+  }
+  to {
+    left: calc(100% + 100px);
+  }
+}
+div.kayan-yildiz-2 {
+  position: absolute;
+  left: -100px;
+  top: 200px;
+  width: 100px;
+  height: 1px;
+  background: linear-gradient(to left, #fff, transparent);
+  animation: kayan-2 10s linear infinite;
+}
+@keyframes kayan-2 {
+  from {
+    left: -100px;
+  }
+  to {
+    left: calc(100% + 120px);
+  }
+}
+div.kayan-yildiz-3 {
+  position: absolute;
+  left: -100px;
+  top: 300px;
+  width: 20px;
+  height: 1px;
+  background: linear-gradient(to left, #fff, transparent);
+  animation: kayan-3 10s linear infinite;
+}
+@keyframes kayan-3 {
+  from {
+    left: -100px;
+  }
+  to {
+    left: calc(100% + 20px);
+  }
+}
+div.kayan-yildiz-4 {
+  position: absolute;
+  left: -500px;
+  top: 130px;
+  width: 280px;
+  height: .5px;
+  background: linear-gradient(to left, #fff, transparent);
+  animation: kayan-4 15s linear infinite;
+}
+@keyframes kayan-4 {
+  from {
+    left: -500px;
+  }
+  to {
+    left: calc(100% + 150px);
+  }
+}
+div.kayan-yildiz-5 {
+  position: absolute;
+  left: -150px;
+  top: 120px;
+  width: 50px;
+  height: 1px;
+  background: linear-gradient(to left, #fff, transparent);
+  animation: kayan-5 12s linear infinite;
+}
+@keyframes kayan-5 {
+  from {
+    left: -150px;
+  }
+  to {
+    left: calc(100% + 200px);
+  }
+}
+div.kayan-yildiz-6 {
+  position: absolute;
+  left: -200px;
+  top: 50%;
+  width: 1px;
+  height: 1px;
+  background: linear-gradient(to left, #fff,transparent);
+  animation: kayan-6 14s linear infinite;
+}
+@keyframes kayan-6 {
+  from {
+    left: -200px;
+  }
+  to {
+    left: calc(100% + 500px);
+  }
+}
