@@ -12,7 +12,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: 
   background-size: 500%;
   animation: gradient_Back 10s alternate;
   animation-iteration-count: infinite;
